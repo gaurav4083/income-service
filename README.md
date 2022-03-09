@@ -23,10 +23,24 @@
    when entered at a multiple of one week frequency.
 
 
+## Running the application locally
 
-## Endpoints Available
-Build and Run the IncomeServiceApplication.java file.
+- Download the zip or clone the Git repository. Unzip the zip file (if you downloaded one)
+- Open Command Prompt and Change directory (cd) to folder containing pom.xml and run the command to
+  install all the dependencies
 
+```
+mvn clean install
+```
+
+
+To run in local
+
+``` 
+mvn clean spring-boot:run
+```
+
+After this you can access the application from following url:
 POST http://localhost:8000/api/v1/income
 
 Request Body:
