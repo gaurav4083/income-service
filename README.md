@@ -2,7 +2,7 @@
 
 ## About The Project
 
-###Terms
+### Terms
 1. A regular amount consists of a frequency and amount. Regular amounts are used to collect the value of regular payments or income for a citizen.
 2. A frequency defines a regular interval at which a payment is made or income received.
    Frequency may be one of:
@@ -15,7 +15,7 @@
 3. An amount contains a value of pounds and pence entered as a String with an optional decimal point. Assume that amount is being validated by a
    different JSR-303 annotation.
 
-###Requirements
+### Requirements
 1. Create a JSR-303 annotation and associated ConstraintValidator
 2. Annotation must validate a regular amount instance:
     - If frequency is a multiple of a week, monetary amount must be divisible to a weekly value that is a whole number of pence.
